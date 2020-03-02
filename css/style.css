@@ -1,0 +1,165 @@
+body{
+    max-width: 960px;
+    margin:0 auto;
+}
+header{
+    background-color:rgba(153,153,153,0.4);
+}
+main{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+}
+.pizzaOverzicht{
+    width:65%;
+}
+.winkelmand{
+    width:30%;
+    padding: 5px;
+    border:solid black 1px;
+    display:flex;
+    flex-direction:column;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+}
+.space{
+    justify-content:space-between;
+}
+.loginRegistreer{
+    align-items:center;
+}
+.pizzaNaam{
+    font-weight: bold;
+    min-width:130px;
+}
+.pizzaPrijs{
+    color: orange;
+    font-size:20px;
+    margin:10px 0;
+}
+.pizzaItem{
+    border: solid black 1px;
+    box-sizing: border-box;
+    margin:5px 0;
+    padding:5px;
+}
+.pizzaOrder{
+    margin:5px 0;
+}
+.justify{
+    justify-content:space-between;
+}
+.formclass{
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    box-sizing: border-box;
+    padding:5px;
+}
+.afreken{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.afrekenen{
+    background-color:lightgreen;
+    margin:5px;
+}
+.verwijderen{
+    background-color:red;
+    color:white;
+}
+.row{
+    width:300px;
+    display:flex;
+    justify-content:space-between;
+    margin:5px;
+}
+.error_message{
+    color:red;
+    margin:5px;
+}
+.registratieForm{
+    margin-top:10px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.btnAddAction{
+    padding:5px;
+    margin:5px;
+}
+.button{
+    padding:5px;
+    margin:5px;
+    font-size: 16px;
+}
+.totaalprijs{
+    font-weight:bold;
+    font-size:18px;
+    margin:5px;
+}
+.displayNone{
+    display:none;
+}
+.button{
+    margin-left:0px;
+    padding:5px;
+    font-size:16px;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+}
+.accountDetails{
+    min-width:50%;
+}
+.titel{
+    display:block;
+    height:25px;
+    width:100%;
+    background-color:#34AB78;
+    border:solid 1px #588CBF;
+    text-align: center;
+    padding:5px;
+    margin:5px 0;
+    color:white;       
+}
+.color1{
+    background-color:#34AB78;
+    color:white;
+}
+.titel2{
+    display:block;
+    height:25px;
+    width:100%;
+    background-color:#E12339;
+    border:solid 1px #588CBF;
+    text-align: center;
+    padding:5px;
+    margin:5px 0;
+    color:white;       
+}
+.color2{
+    background-color:#E12339;
+    color:white;
+}
+.wijzig{
+    margin:5px;
+}
+.hidden{
+    display: none;
+}
+.mystyle{
+    display: block;
+}
